@@ -1,0 +1,35 @@
+<!ELEMENT response (rows)>
+<!ELEMENT rows (row+)>
+<!ELEMENT row (agency,headline,subheadline?,publish_date,publish_year,city,state,content?,footer_content,category_tags?,contact1?,contact2?,contact3?,contact4?,date_entered?,entered_by?,date_last_modified?,last_modified_by?,category_tag1?,category_tag2?,category_tag3?,category_tag4?,category_tag5?,content2?,content3?,content4?)>
+<!ELEMENT agency (#PCDATA)>
+<!ELEMENT headline (#PCDATA)>
+<!ELEMENT subheadline (#PCDATA)>
+<!ELEMENT publish_date (#PCDATA)>
+<!ELEMENT publish_year (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+<!ELEMENT footer_content (#PCDATA)>
+<!ELEMENT category_tags (#PCDATA)>
+<!ELEMENT contact1 (#PCDATA)>
+<!ELEMENT contact2 (#PCDATA)>
+<!ELEMENT contact3 (#PCDATA)>
+<!ELEMENT contact4 (#PCDATA)>
+<!ELEMENT date_entered (#PCDATA)>
+<!ELEMENT entered_by (#PCDATA)>
+<!ELEMENT date_last_modified (#PCDATA)>
+<!ELEMENT last_modified_by (#PCDATA)>
+<!ELEMENT category_tag1 (#PCDATA)>
+<!ELEMENT category_tag2 (#PCDATA)>
+<!ELEMENT category_tag3 (#PCDATA)>
+<!ELEMENT category_tag4 (#PCDATA)>
+<!ELEMENT category_tag5 (#PCDATA)>
+<!ELEMENT content2 (#PCDATA)>
+<!ELEMENT content3 (#PCDATA)>
+<!ELEMENT content4 (#PCDATA)>
+
+
+<!ATTLIST row _address CDATA #REQUIRED>
+<!ATTLIST row _id CDATA #REQUIRED>
+<!ATTLIST row _position CDATA #REQUIRED>
+<!ATTLIST row _uuid CDATA #REQUIRED>

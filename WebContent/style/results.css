@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.content {
+	width:800px;
+	margin:100px auto;
+}
+
+.content .headline {
+	word-wrap:break-word;
+	width:100%;
+	padding:10px 10px;
+}
+
+.content .headline:hover {
+	background-color: #eee;
+	transition: background-color 0.3s linear;
+}
+
+.content .headline .name {
+	display: inline-block;
+	width:100px;
+	padding:5px 10px;
+}
+
+.content .headline .info {
+	padding:5px 10px;
+}
+
+.extract {
+	text-align:center;
+	margin:25px 0 0 0;
+}
+
+input[type=submit] {
+    width:200px;
+    background-color: #52BE80;
+    color: white;
+    padding: 14px 20px;
+    margin: 0 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #27AE60;
+    transition: background-color 0.3s linear;
+}
+
+/*extract page*/
+.extract_head {
+	width:100%;
+	text-align:center;
+	font-size:200%;
+	margin-bottom:20px;
+}
+
+.extract_content{
+	text-align:center;
+	margin:10px 0;
+}
+
+.noresults {
+	width:100%;
+	text-align:center;
+	font-size:200%;
+}
+
+.extract_button {
+	display:inline-block;
+	width:200px;
+    background-color: #52BE80;
+    color: white;
+    padding: 14px 20px;
+    margin: 0 20px;
+    border: none;
+    cursor: pointer;
+}
+.extract_button:hover {
+	background-color: #27AE60;
+    transition: background-color 0.3s linear;
+}
+
+.page {
+	width:100%;
+	text-align:center;
+}
+
+.page a{
+	width:100px;
+	color:white;
+	background-color: #52BE80;
+	display:inline-block;
+	padding:10px;
+	margin:10px
+}
+
+.page a:hover{
+	background-color: #27AE60;
+    transition: background-color 0.3s linear;
+}

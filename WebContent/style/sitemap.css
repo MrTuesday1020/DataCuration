@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.content {
+	width:800px;
+	margin:150px auto;
+}
+
+.sitebutton {
+	display:block;
+	width:200px;
+	padding:15px;
+	margin-bottom:20px;
+	background-color: #52BE80;
+	text-align:center;
+	color:white;
+}
+
+.sitebutton:hover {
+    background-color: #27AE60;
+    transition: background-color 0.3s linear;
+}
